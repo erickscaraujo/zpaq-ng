@@ -1,0 +1,59 @@
+# --- Original zpaq artifacts (kept from upstream) ---
+*.pdf
+*.exe
+*.dll
+*.o
+zp
+unzp
+zpaq
+
+# --- Build directories ---
+/build/
+/build-*/
+cmake-build-*/
+
+# --- Compiled objects ---
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# --- CMake / toolchain caches ---
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.ninja
+
+# --- ZPAQ-NG runtime artifacts ---
+zpaq_ng.exe
+zpaq_orig.exe
+zpaq_ng_v1.0_novos_arquivos.zip
+compat_dir/
+rt_dir/
+*.zpaq
+recovered.bin
+
+# --- Large / generated test data ---
+big.txt
+testdata.bin
+testdata*.bin
+recovery_test_input.bin
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+
+# --- OS noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
